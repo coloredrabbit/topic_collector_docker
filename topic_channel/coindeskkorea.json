@@ -19,7 +19,31 @@
                     }
                 },
                 {
-                    "name": "title",
+                    "name": "headline",
+                    "use": true,
+                    "identifier": {
+                        "xpath": "",
+                        "selector": ""
+                    }
+                },
+                {
+                    "name": "summary",
+                    "use": true,
+                    "identifier": {
+                        "xpath": "",
+                        "selector": ""
+                    }
+                },
+            {
+                    "name": "date",
+                    "use": true,
+                    "identifier": {
+                        "xpath": "",
+                        "selector": ""
+                    }
+                },
+            {
+                    "name": "hashtags",
                     "use": true,
                     "identifier": {
                         "xpath": "",
