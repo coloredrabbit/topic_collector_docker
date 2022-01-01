@@ -4,10 +4,15 @@
 
 # node on alpine
 FROM node:17.3-alpine3.12
+
+# image metadata
 LABEL version="1.0"
+LABEL build-date=""
+LABEL name="news-collector"
+LABEL maintainer="adh0463@gmail.com"
+LABEL description=""
+LABEL url="https://github.com/coloredrabbit/topic_collector_docker"
 LABEL author="coloredrabbit"
-LABEL email="adh0463@gmail.com"
-LABEL repository="https://github.com/coloredrabbit/topic_collector_docker"
 
 USER root
 
