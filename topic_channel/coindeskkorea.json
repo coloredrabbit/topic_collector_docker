@@ -5,14 +5,14 @@
         {
             "url": "https://www.coindeskkorea.com/",
             "used": true,
-            "news_list_identifier": {
-                "xpath": "",
-                "selector": ""
+            "newsItemListIdentifier": {
+                "xpath": "//*[@id=\"moreList\"]/li",
+                "selector": "#moreList > li"
             },
             "target": [
                 {
                     "name": "point",
-                    "use": true,
+                    "use": false,
                     "identifier": {
                         "xpath": "",
                         "selector": ""
@@ -22,13 +22,13 @@
                     "name": "headline",
                     "use": true,
                     "identifier": {
-                        "xpath": "",
-                        "selector": ""
+                        "xpath": "./div/span/a[2]/strong",
+                        "selector": "div > span > a:nth-child(2) > strong"
                     }
                 },
                 {
                     "name": "summary",
-                    "use": true,
+                    "use": false,
                     "identifier": {
                         "xpath": "",
                         "selector": ""
@@ -36,7 +36,7 @@
                 },
             {
                     "name": "date",
-                    "use": true,
+                    "use": false,
                     "identifier": {
                         "xpath": "",
                         "selector": ""
@@ -44,7 +44,7 @@
                 },
             {
                     "name": "hashtags",
-                    "use": true,
+                    "use": false,
                     "identifier": {
                         "xpath": "",
                         "selector": ""
